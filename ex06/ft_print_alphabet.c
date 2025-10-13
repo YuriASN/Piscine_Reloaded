@@ -1,0 +1,10 @@
+#include "libft.h"
+
+void	ft_print_alphabet(void)
+{
+	char	c;
+
+	c = 'a' - 1;
+	while (++c <= 'z')
+		ft_putchar(c);
+}
