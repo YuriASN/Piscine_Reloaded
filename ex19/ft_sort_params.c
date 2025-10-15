@@ -22,7 +22,7 @@ static void	sort_strings(char **params)
 		j = i;
 		while (++j < size)
 		{
-			if (is_bigger(params[i], params[j])
+			if (is_bigger(params[i], params[j]))
 			{
 				tmp = params[i];
 				params[i] = params[j];
